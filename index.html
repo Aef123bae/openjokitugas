@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OPEN JOKI TUGAS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="baru"></div>
+    <div id="pem">
+        <h2>WELKOM TO JASA JOKI</h2>
+
+        <div class="conte">
+            <ul>
+                <li>
+                    <a href="#baru">BERANDA</a>
+                    <a href="https://www.instagram.com/aef.saepuwloh?r=nametag" id="">INSTAGRAM</a>
+                    <a href="https://wa.me//6282319192604" id="">WAS AP</a>
+
+                </li>
+            </ul>
+        </div><br>
+        <button id="reg" onclick="log()">LogIn</button>
+        <button id="ins" onclick="reg()">Register</button>
+    </div>
+    <hr><div class="jarak"></div>
+    <br>
+    <div class="au">
+        <table border="1" cellspacing="0" cellspading="5">
+            <thead>
+                <tr>
+                    <td>PENJOKI</td>
+                </tr>
+                <tr>
+                    <td>Aef Saepuwloh</td>
+                </tr>
+            </thead>
+            <tbody>
+                <td><img src="gambar1.jpg" alt="poto penjoki" title="poto penjoki">
+            </tbody>
+        </table>
+    </div>
+    <div class="coba"></div><br><h4>DENGAN DIJOKI SEMUA TUGAS AKAN SELESAI DENGAN CEPAT DAN BENAR</h4>
+    
+    <hr><br>
+    
+    <p aria-label="arial">Pilih pelajaran yang ingin dijoki dan bayar sesuai harga</p>
+    <div class="harga">
+        
+        <table id="tabel" border="10" cellspacing="0" cellspading="100">
+            <br>
+            <tr><td><input type="checkbox" id="produk1" name="produk1" value="10.000">
+            <label for="produk1" id="fisika">  FISIKA - Rp10,000</label><br><br></td></tr>
+            
+            <tr><td><input type="checkbox" id="produk2" name="produk2" value="20.000">
+            <label for="produk2" id="kimia">KIMIA - Rp20,000</label><br><br></td></tr>
+
+            <tr><td><input type="checkbox" id="produk3" name="produk3" value="30.000">
+            <label for="produk3" id="mtk">MATEMATIKA - Rp30,000</label><br><br></td></tr>
+        </table>
+    </div><br>
+    
+    <div class="rek">
+        <p>Anda juga bisa <b>REQUES</b> mata pelajaran yang ingin dijoki kalo tidak di opsi pilihan di atas</p>
+        <p><label for="ga">masukan mata pelajaran yag ingin di JOKI : <input placeholder="request pelajaran" type="text" id="ga" ></label></p>
+    </div>
+    <!-- <i>SMK KHUSUS JURUSAN RPL</i>
+    <div class="harga">
+        <table border="1" cellspacing="0" cellspading="5">
+            <tr><td><input type="checkbox" class="pelajaran">KOMJAR</td></tr>
+            <tr><td><input type="checkbox" class="pelajaran">SIMDIG</td></tr>
+            <tr><td><input type="checkbox" class="pelajaran">MATEMATIKA</td></tr>
+            <tr><td><input type="checkbox" class="pelajaran">FISIKA</td></tr>
+            <tr><td><input type="checkbox" class="pelajaran">KIMIA</td></tr>
+        </table>
+    </div><br><br><hr> -->
+    <br><br>
+
+    
+    <div class="tanya">
+        <label for="nama"><h2>Masukan nama anda 🖍 </h1></label>
+        <form >
+            <b><input  placeholder="NAMA" type="text" id="nama" required></b>
+        </form><br>
+        <div class="contener">
+            <fieldset>
+                <p>↓</p>
+                <P>pelajaran yang ingin dijoki: <span class="P2" id="barang">kosong</span></P>
+                <p>Total harga: <span class="P2" id="total">0</span></p>
+            </fieldset>
+            
+
+        </div>
+            
+    </div><br>
+
+
+    <div class="buton">
+        <button onclick="cek()" id="kirim">CeckOut 💲</button>
+        <button onclick="hutang()" id="kirim">HUTANG</button>
+    </div>
+
+<script src="openjoki.js"></script>
+
+
+</body>
+
+</html>

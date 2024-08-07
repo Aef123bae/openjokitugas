@@ -1,0 +1,236 @@
+/* #kirim , #hutang{
+    background-color: rgb(181, 18, 214);
+    border-radius: 20px;
+    width: 110px;
+    height: 60px;
+    
+    
+} */
+
+#pem {
+
+    box-shadow: 1px 1px;
+    -webkit-animation: kedip 0.5s infinite;
+    -moz-animation:    kedip 0.5s infinite;
+    -o-animation:      kedip 0.5s infinite;
+    animation:         kedip 0.5s infinite;
+    text-shadow: #000000;
+    }
+
+@keyframes kedip {
+    0%, 49% {
+        background:  #ffd45e;
+        color : #000000
+    
+    }
+    50%, 100% {
+        background:#56ff9f;
+        color : #000
+    
+    }
+
+}
+
+
+
+table{
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tabel,.au{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.beda1{margin-top: 5px;
+    position: absolute;
+    float: left;
+    background-color: #ffffff;
+}
+
+.beda{
+    background-color: #ffffff;
+    float: left;
+}
+
+.P2{
+    color: #383434;
+}
+
+
+.au{
+    
+    margin-top: 20px;
+    text-align: center;
+}
+
+h4{
+    position: relative;
+    
+    box-sizing: border-box;
+    text-align: center;
+    border: 3px dashed #ffd45e;
+}
+
+.jarak{
+    margin-top: 80px;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+#lanjut,#kirim,#hutang{
+
+    width: max-content;
+    font-family: 'Calibri', 'Trebuchet MS', sans-serif;
+    background-color: #ffd45e   ;
+    width: 140px;
+    height: 40px;
+    
+    font-size: medium;
+    border-radius: 20px;
+    cursor: pointer;
+
+
+}
+
+#pem {
+    border: 4px solid rgb(0, 0, 0);
+    margin: 10px;
+    padding: 6px;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.conte a {
+        padding: 11px;
+        color: rgb(10, 125, 225);
+        
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#pem {
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #ffd45e;
+    z-index: 9999;
+
+}
+
+ul li a:hover{
+    display: inline-block;
+    color: black;
+    background-color: rgb(255, 0, 157);
+}
+
+.milih select {
+    position: relative;
+    margin-top: 10px;
+    font-size: 15px;
+    background-color: rgb(7, 255, 15);
+    
+    width: 90px;
+    height: 40px;
+    text-align: center;
+
+
+}
+
+.milih select option {
+    border-radius: 20px;
+    background-color: rgb(172, 255, 133);
+}
+
+#nama {
+    height: 20px;
+    border-radius: 20px;
+    background-color: azure;
+}
+
+#hp {
+    height: 20px;
+    border-radius: 20px;
+    background-color: azure;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+#reg{
+    margin-right: 10px;
+    width: 70px;
+    height: 30px;
+    background-color: rgb(7, 180, 33);
+    position: relative;
+    float: center;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:15px;
+}
+#ins{right: 5px;
+    border-radius: 10px;
+    width: 70px;
+    height: 30px;
+    background-color: rgb(216, 248, 4);
+    position: relative;
+    float: center;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+
+table tr td .ini{
+    background-color: blueviolet;
+}
+
+p{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p{
+    background-color: #e6efff;
+    width: auto;
+    text-align: center;
+}
+
+.harga{
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    background-color: #e6efff;
+}
+
+input{
+    text-align: center;
+}
+
+.buton{
+
+    display: flex;
+    justify-content: center;
+}
+
+.contener {
+    position: relative;
+    width: 300px;
+    justify-content: center;
+    margin: auto;
+    background-color: crimson;
+    border-radius: 99PX;
+}
